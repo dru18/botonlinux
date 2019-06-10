@@ -1,0 +1,19 @@
+{
+  "name": "dru",
+  "version": "1.0.0",
+  "description": "A bot for newbies of Linux, FOSS and Terminal.",
+  "main": "dru.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linux",
+    "foss",
+    "terminal"
+  ],
+  "author": "dru",
+  "license": "MIT",
+  "dependencies": {
+    "mastodon-api": "^1.3.0"
+  }
+}
