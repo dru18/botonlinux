@@ -54,7 +54,7 @@ function getUpdate(){
 
   //setInterval(getUpdate, 1000);
 
-funtion toot(txt){
+function toot(txt){
   M.post('statuses', {status: txt, visibility: 'public', spoiler_text: 'Jai Shree Ram'}, (error, data) => {
     if(error){console.log(error)}
     else{console.log(data.content)}
