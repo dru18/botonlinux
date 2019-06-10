@@ -13,19 +13,6 @@ const M = new Mastodon({
   api_url: 'https://botsin.space/api/v1/', // optional, defaults to https://mastodon.social/api/v1/
 })
 
-/*
-function doStram(){
-  
-const listener = M.stream('streaming/user')
-
-listener.on('error', err => console.log('err'))
-
-listener.on('public', msg => console.log('msg'))
-}
-
-doStram();
-*/
-
 
 function getUpdate(){
   M.get('timelines/home', {limit: '1'}, (error, data) => {
@@ -67,8 +54,11 @@ function getUpdate(){
 
   //setInterval(getUpdate, 1000);
 
+funtion toot(txt){
+  M.post('statuses', {status: txt, visibility: 'public', spoiler_text: 'Jai Shree Ram'}, (error, data) => {
+    if(error){console.log(error)}
+    else{console.log(data.content)}
+  });
+}
 
-M.post('statuses', {status: 'The meaning of life is "See the Beauty of NATURE."', visibility: 'public', spoiler_text: 'Jai Shree Ram'}, (error, data) => {
-  if(error){console.log(error)}
-  else{console.log(data.content)}
-});
+toot("The meaning of life is: "Remember what you have ACHIEVED.");
