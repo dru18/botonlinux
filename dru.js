@@ -14,7 +14,7 @@ const M = new Mastodon({
 })
 
 
-function getUpdate(){
+function followBack(){
   M.get('timelines/home', {limit: '1'}, (error, data) => {
     console.log(JSON.stringify(data, null, 2));
     
@@ -48,11 +48,32 @@ function getUpdate(){
        // M.post('notifications/clear')
     
     }
-  });
+  })
 }
-//  getUpdate();
+//  followBack();
 
   //setInterval(getUpdate, 1000);
+
+function notify(){
+  M.get('notifications', {}, (error, data) => {
+    if(error){console.log(error);}
+    else{console.log(`*****notifications***** \n ${data[0].account.username} (${data[0].account.acct}) - ${data[0].type} - ${data[0].status.content}`);}
+  });
+}
+
+notify();
+
+function nClear(){
+M.post('notifications/clear', {}, (error, data) => {
+  if(error){console.log(error);}
+  else{
+    console.log('succeed.');
+    notify();
+  }
+});
+}
+
+//nClear();
 
 function toot(txt){
   M.post('statuses', {status: txt, visibility: 'public', spoiler_text: 'Jai Shree Ram'}, (error, data) => {
@@ -61,4 +82,4 @@ function toot(txt){
   });
 }
 
-toot('The meaning of life is: "Remember what you have ACHIEVED."');
+//toot('The meaning of life is: "Remember what you have ACHIEVED."');
