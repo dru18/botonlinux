@@ -61,4 +61,4 @@ function toot(txt){
   });
 }
 
-toot("The meaning of life is: "Remember what you have ACHIEVED.");
+toot('The meaning of life is: "Remember what you have ACHIEVED."');
