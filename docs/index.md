@@ -1,8 +1,14 @@
 # How to solved server SSH *hangup*
 
-<img src="issue/screenshot/*.issue.png" alt="issue">
+[issue](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
 
-It seems you are using firewall to deny incoming connections where you are blocking SSH too for incoming connections. So you need to filter it out to allow SSH for incoming connectins. **ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
+![issue](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
+
+It seems you are using firewall to deny incoming connections where you are blocking SSH too for incoming connections or possibly you have not install *openssh-server* So you need to filter it out to allow SSH for incoming connectins. **ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
+
+###### Install openssh-server
+
+`sudo apt install openssh-server`
 
 ###### *Install* ufw
 
@@ -24,8 +30,10 @@ It seems you are using firewall to deny incoming connections where you are block
 
 `ssh username@server`
 
-<img src="issue/screenshot/*.solved.png" alt="issue">
+[solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
+
+![solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
 
 # Done.
 
-#server #ssh #ufw #firewall #i
+#server #ssh #ufw #firewall #openssh-server
