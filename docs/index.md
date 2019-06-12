@@ -10,7 +10,8 @@
 
 `ssh -T git@github.com`
 
-# Done
+#ssh #git #github #publickey #sshkey
+
 
 ###### Blog 1:
 
@@ -50,6 +51,6 @@ It seems you are using firewall to deny incoming connections where you are block
 
 ![solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
 
-# Done.
+###### Done.
 
 #server #ssh #ufw #firewall #openssh-server
