@@ -4,18 +4,18 @@
 
 ###### *Install* ufw
 
-> `sudo apt install ufw`
+`sudo apt install ufw`
 
 ###### *Enable* ufw
 
-> `sudo ufw enable`
+`sudo ufw enable`
 
 ###### Check ufw *status*
 
-> `sudo ufw status verbose`
+`sudo ufw status verbose`
 
 ###### Add rule to *allow SSH* for incomming connections
 
-> `sudo ufw allow ssh`
+`sudo ufw allow ssh`
 
 # Done.
