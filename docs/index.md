@@ -1,6 +1,6 @@
 ###### Blog 2:
 
-#Verify your *SSH*
+# Verify your *SSH*
 
 ###### Check your *SSH* connection
 
