@@ -1,4 +1,4 @@
-# ufw firewall
+# How to allow *SSH* for incoming connections.
 
 **ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
 
