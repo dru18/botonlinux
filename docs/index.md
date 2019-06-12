@@ -1,21 +1,21 @@
 ###### Blog 3:
 
-> Install Google Chrome on a Linux Distro using a *.deb* archive.
+# Install Google Chrome on a Linux Distro using a *.deb* archive.
 
 <hr>
 
-1. Download Google Chrome *.deb* archive from google.com.
-   a. Search "download chrome" on your search engine.
-   b. Go to download link for Google Chrome on google.com.
-   c. Select *.deb* option and download it.
-2. Install Google Chrome using *.deb* archive.
-   a. Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
+- Download Google Chrome *.deb* archive from google.com.
+   - Search "download chrome" on your search engine.
+   - Go to download link for Google Chrome on google.com.
+   - Select *.deb* option and download it.
+- Install Google Chrome using *.deb* archive.
+   - Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
    `cd *location*`
-   b. Search for *.deb* archive of Google Chrome.
+   - Search for *.deb* archive of Google Chrome.
    `ls | grep \*chrome\*.deb`
-   c. Install *.deb* archive using *dpkg*.
+   - Install *.deb* archive using *dpkg*.
    `sudo dpkg --install $(ls | \*.chrome*.deb)`
-   d. Enter your computer login password and hit *Enter*.
+   - Enter your computer login password and hit *Enter*.
 
 <hr>
 #debArchive #dpkg #debianPackage #Google #googleChrome #install #linux
@@ -24,7 +24,7 @@
 
 ###### Blog 2:
 
-> Verify your *SSH*
+# Verify your *SSH*
 
 <hr>
 
@@ -42,7 +42,7 @@
 
 ###### Blog 1:
 
-> How to solved server SSH *hangup*
+# How to solved server SSH *hangup*
 
 <hr>
 
