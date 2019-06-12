@@ -10,17 +10,11 @@
    - Select *.deb* option and download it.
 - Install Google Chrome using *.deb* archive.
    - Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
-
-   `cd *location*`
-
+     - `cd *location*`
    - Search for *.deb* archive of Google Chrome.
-
-   `ls | grep \*chrome\*.deb`
-
+     - `ls | grep \*chrome\*.deb`
    - Install *.deb* archive using *dpkg*.
-
-   `sudo dpkg --install $(ls | \*.chrome*.deb)`
-
+     - `sudo dpkg --install $(ls | \*.chrome*.deb)`
    - Enter your computer login password and hit *Enter*.
 
 <hr>
