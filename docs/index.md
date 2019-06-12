@@ -36,4 +36,4 @@ It seems you are using firewall to deny incoming connections where you are block
 
 # Done.
 
-#server #ssh #ufw #firewall #i
+#server #ssh #ufw #firewall #openssh-server
