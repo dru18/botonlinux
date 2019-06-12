@@ -1,5 +1,5 @@
 ##### Blog 4: 
-#### Author: @dru18
+#### Author: dru18
 
 # Coding easier way using *Vim*.
 <hr>
@@ -10,7 +10,7 @@
 
 
 ##### Blog 3:
-#### Author: @dru18
+#### Author: dru18
 
 # Install Google Chrome on a Linux Distro using a *.deb* archive.
 <hr>
@@ -35,7 +35,7 @@
 
 
 ##### Blog 2:
-#### Author: @dru18
+#### Author: dru18
 
 # Verify your *SSH*
 <hr>
@@ -50,7 +50,7 @@
 <hr>
 
 ##### Blog 1:
-#### Author: @dru18
+#### Author: dru18
 
 # How to solved server SSH *hangup*
 <hr>
