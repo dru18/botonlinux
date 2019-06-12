@@ -1,6 +1,6 @@
 # How to solved server SSH *hangup* 
 
-###### Server SSH *hangup*
+###### Server SSH *hangup* issue
 ![](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
 
 It seems you are using firewall to deny incoming connections where you are blocking SSH too for incoming connections. So you need to filter it out to allow SSH for incoming connectins. **ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
