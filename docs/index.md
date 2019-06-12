@@ -29,11 +29,9 @@
 <hr>
 
 ##### Check your *SSH* connection
-
 `ssh -T username@host`
 
 ##### Verify your *SSH* key on GitHub for Git after adding your public ssh key to your GitHub account.
-
 `ssh -T git@github.com`
 
 <hr>
