@@ -12,8 +12,8 @@
 
 `ssh -T git@github.com`
 
+<hr>
 #ssh #git #github #publickey #sshkey
-
 <hr>
 
 ###### Blog 1:
@@ -58,6 +58,6 @@ It seems you are using firewall to deny incoming connections where you are block
 
 ###### Done.
 
+<hr>
 #server #ssh #ufw #firewall #openssh-server
-
 <hr>
