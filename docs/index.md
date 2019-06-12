@@ -21,7 +21,7 @@
      - `sudo dpkg --install $(ls | \*.chrome*.deb)`
    - Enter your computer login password and hit *Enter*.
 
-#### Done :+1:
+#### Done.
 
 <hr>
 #debArchive #dpkg #debianPackage #Google #googleChrome #install #linux
@@ -80,7 +80,7 @@
 
 ![solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
 
-#### Done :+1:
+#### Done.
 
 <hr>
 #server #ssh #ufw #firewall #openssh-server
