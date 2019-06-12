@@ -1,6 +1,6 @@
 ###### Blog 2:
 
-# Verify your *SSH*
+> Verify your *SSH*
 
 ###### Check your *SSH* connection
 
@@ -14,7 +14,7 @@
 
 ###### Blog 1:
 
-# How to solved server SSH *hangup*
+> How to solved server SSH *hangup*
 
 [issue](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
 
