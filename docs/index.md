@@ -1,3 +1,19 @@
+###### Blog 2:
+
+#Verify your *SSH*
+
+###### Check your *SSH* connection
+
+`ssh -T username@host`
+
+###### Verify your *SSH* key on GitHub for Git after adding your public ssh key to your GitHub account.
+
+`ssh -T git@github.com`
+
+# Done
+
+###### Blog 1:
+
 # How to solved server SSH *hangup*
 
 [issue](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
