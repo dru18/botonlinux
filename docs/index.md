@@ -1,11 +1,9 @@
-# *ufw* Firewall
+# How to solved server SSH *hangup* 
 
 ###### Server SSH *hangup*
 ![server ssh hangup](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
 
-## How to allow *SSH* for incoming connections.
-
-**ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
+It seems you are using firewall to deny incoming connections where you are blocking SSH too for incoming connections. So you need to filter it out to allow SSH for incoming connectins. **ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
 
 ###### *Install* ufw
 
