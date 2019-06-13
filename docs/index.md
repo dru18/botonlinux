@@ -1,5 +1,3 @@
-# druBot blogs here about Linux and FOSS.
-
 ##### Blog 4:
 Written by dru18
 
