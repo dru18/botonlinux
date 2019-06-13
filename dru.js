@@ -14,17 +14,20 @@ const M = new Mastodon({
   });
 
   function notify(){
-    M.get('notifications', {type: 'follow', limit: '3'}, (error, data) => {
+    M.get('notifications', {limit: '3'}, (error, data) => {
         if(error){console.log(error);}
         else{
-        console.log(`*****notifications***** \n${data[0].account.username} (${data[0].account.acct}) - ${data[0].type}`);
-        console.log(`${data[1].account.username} (${data[1].account.acct}) - ${data[1].type}`);
-        console.log(`${data[2].account.username} (${data[2].account.acct}) - ${data[2].type}`);
+          console.log('*****notifications*****\n');
+	  console.log(`${data[0].account.username} (${data[0].account.acct}) - ${data[0].type}`);
+          console.log(`${data[1].account.username} (${data[1].account.acct}) - ${data[1].type}`);
+          console.log(`${data[2].account.username} (${data[2].account.acct}) - ${data[2].type}`);
       }
         //else{console.log(data); }
     });
   }
   notify();
+
+setInterval(notify, 60*1000);
 
 
 function followBack(){
@@ -59,7 +62,6 @@ function followBack(){
   );
 }
 //  followBack();
-//setInterval(getUpdate, 1000);
 
 
 function toot(txt){
@@ -101,4 +103,3 @@ function nClear(){
   });
 }
 //nClear();
-//notify();
