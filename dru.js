@@ -25,9 +25,6 @@ const M = new Mastodon({
         //else{console.log(data); }
     });
   }
-  notify();
-
-setInterval(notify, 60*1000);
 
 
 function followBack(){
@@ -61,8 +58,6 @@ function followBack(){
     }
   );
 }
-//  followBack();
-
 
 function toot(txt){
   M.post('statuses', {status: txt, visibility: 'public', spoiler_text: 'Jai Shree Ram'}, (error, data) => {
@@ -70,7 +65,6 @@ function toot(txt){
     else{console.log(data.content)}
   });
 }
-//toot('The meaning of life is: "Remember what you have ACHIEVED."');
 
 
 function replyFev(){
@@ -90,7 +84,6 @@ function replyFev(){
       }
   });
 }
-//replyFev();
 
 
 function nClear(){
@@ -102,4 +95,15 @@ function nClear(){
     }
   });
 }
+notify();
+setInterval(notify, 60*1000);
+
+//replyFev();
+//setInterval(notify, 60*1000);
+
+//toot('The meaning of life is: "Remember what you have ACHIEVED."');
+//setInterval(notify, 60*1000);
+
 //nClear();
+//setInterval(notify, 60*1000);
+
