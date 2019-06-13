@@ -3,7 +3,7 @@ Blog 4:
 Written by dru18
 
 <hr>
-> Vim makes it easier to making a website. It uses *markdowns* to do this task that makes it more easy to make a website. But when you use it as a web page for your web site it automatically get converted to *HTML* tags. You can save a lot of energy to do it. It uses a lot of *shortcuts* for it so you can edit your files *faster*. You don't need to even touch your *mouse* till the end of the editing of your file. You can just write your *code*, use *markdowns* for it, use *vim editing shortcuts* and your done. Just look and compare the *source code* of this web page with the [markdowns](https://raw.githubusercontent.com/dru18/druBot/master/docs/index.md) of this web page. For source code Right Click on this page and Choose ***View Source Code***.
+Vim makes it easier to making a website. It uses *markdowns* to do this task that makes it more easy to make a website. But when you use it as a web page for your web site it automatically get converted to *HTML* tags. You can save a lot of energy to do it. It uses a lot of *shortcuts* for it so you can edit your files *faster*. You don't need to even touch your *mouse* till the end of the editing of your file. You can just write your *code*, use *markdowns* for it, use *vim editing shortcuts* and your done. Just look and compare the *source code* of this web page with the [markdowns](https://raw.githubusercontent.com/dru18/druBot/master/docs/index.md) of this web page. For source code Right Click on this page and Choose ***View Source Code***.
 
 `:set number`
 
@@ -21,7 +21,7 @@ Written by dru18
 
 > Ignores the *case* in find mode.
 
-> Just *run these commands* in Vim while editing as temporary so will not see them enabled next time you run Vim or add theme to your */etc/vim/vimrc* file as permanent so will get all those enabled each time you launch Vim. Some of these properties are already there in your *vimrc* file so you just need to *uncomment* them and add manually only those which you don't see there.
+Just *run these commands* in Vim while editing as temporary so will not see them enabled next time you run Vim or add theme to your */etc/vim/vimrc* file as permanent so will get all those enabled each time you launch Vim. Some of these properties are already there in your *vimrc* file so you just need to *uncomment* them and add manually only those which you don't see there.
 <hr>
 #vim #markdown #web #webPage #webSite #coding #html
 <hr>
