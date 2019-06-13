@@ -13,16 +13,16 @@ const M = new Mastodon({
     api_url: 'https://botsin.space/api/v1/', // optional, defaults to https://mastodon.social/api/v1/
   });
 
-  function notify(){
+  function topThreeNotice(){
     M.get('notifications', {limit: '3'}, (error, data) => {
         if(error){console.log(error);}
         else{
-          console.log('*****notifications*****\n');
+          console.log('\n*****notifications*****\n');
 	  console.log(`${data[0].account.username} (${data[0].account.acct}) - ${data[0].type}`);
           console.log(`${data[1].account.username} (${data[1].account.acct}) - ${data[1].type}`);
           console.log(`${data[2].account.username} (${data[2].account.acct}) - ${data[2].type}`);
+//	  console.log(data);
       }
-        //else{console.log(data); }
     });
   }
 
@@ -67,7 +67,7 @@ function toot(txt){
 }
 
 
-function replyFev(){
+function favouriteReply(){
   M.get('notifications', {}, (error, data) => {
     const stsType = data[0].type;
     const usrName = data[0].account.username;
@@ -77,14 +77,45 @@ function replyFev(){
     if(error){console.log(error);}
     
     else{
-      console.log(`*****notifications***** \n ${usrName} ${usrAccount} - ${stsType} - ${stsContent}`);
-      //M.post('statuses', {status: `@${data[0].account.acct} Jai Shree Ram`, visibility: 'direct'}, (error, resp) => {
-      M.post(`statuses/${data[0].status.id}/favourite`);  
-      //console.log(`Replied ${resp.content} to ${resp.account.acct}`);
-      }
+      M.post(`statuses/${data[0].status.id}/favourite`); 
+      console.log("Favourited successfully.");
+   }
   });
 }
 
+function boostReply(){
+  M.get('notifications', {}, (error, data) => {
+    const stsType = data[0].type;
+    const usrName = data[0].account.username;
+    const usrAccount = data[0].account.acct;
+    const stsContent = data[0].status.content;
+
+    if(error){console.log(error);}
+    
+    else{
+      M.post(`statuses/${data[0].status.id}/reblog`);
+      console.log("Reblogged successfully.");
+    }
+  });
+}
+
+function jsrReply(){
+  M.get('notifications', {}, (error, data) => {
+    const stsType = data[0].type;
+    const usrName = data[0].account.username;
+    const usrAccount = data[0].account.acct;
+    const stsContent = data[0].status.content;
+
+    if(error){console.log(error);}
+    
+    else{
+      M.post('statuses', {status: `@${data[0].account.acct} Jai Shree Ram`, visibility: 'direct'}, (error, resp) => {
+      console.log(`Replied ${resp.content} to ${resp.account.acct}`);
+      console.log("Replied successfully.");
+      });
+    }
+  });
+}
 
 function nClear(){
   M.post('notifications/clear', {}, (error, data) => {
@@ -95,13 +126,20 @@ function nClear(){
     }
   });
 }
-notify();
-setInterval(notify, 60*1000);
 
-//replyFev();
+topThreeNotice();
 //setInterval(notify, 60*1000);
 
-//toot('The meaning of life is: "Remember what you have ACHIEVED."');
+//favouriteReply();
+//setInterval(favouriteReply, 60*1000);
+
+//boostReply();
+//setInterval(boostReply, 60*1000);
+
+//jsrReply();
+//setInterval(jsrReply, 60*1000);
+
+//toot('The meaning of life is: "First of all proove for yourself then for others."');
 //setInterval(notify, 60*1000);
 
 //nClear();
