@@ -1,3 +1,7 @@
+# druBot
+
+# Let's share your short blogs to practive more of your Git and GitHub exercises.
+
 ##### Blog 4:
 Written by dru18
 
