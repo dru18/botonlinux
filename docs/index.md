@@ -30,13 +30,13 @@ Just *run these commands* in Vim while editing as temporary so will not see them
 #vim #markdown #web #webPage #webSite #coding #html
 <hr>
 
-# Install Google Chrome on a Linux Distro using a *.deb* archive.
+# Install Google Chrome using *.deb* archive.
 Blog 3:
 Written by dru18
 <hr>
 - Download Google Chrome *.deb* archive from google.com.
    - Search *download chrome* on your search engine.
-   - Go to *ownload link*for Google Chrome on google.com.
+   - Go to *download link* for Google Chrome on google.com.
    - Select *.deb* option and download it.
 - Install Google Chrome using *.deb* archive.
 
