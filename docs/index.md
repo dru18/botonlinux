@@ -22,7 +22,7 @@ Vim makes it easier to making a website. It uses *markdowns* to do this task tha
 
 
 Just *run these commands* in Vim while editing as temporary so will not see them enabled next time you run Vim or add theme to your */etc/vim/vimrc* file as permanent so will get all those enabled each time you launch Vim. Some of these properties are already there in your *vimrc* file so you just need to *uncomment* them and add manually only those which you don't see there.
-<hr>
+
 #vim #markdown #web #webPage #webSite #coding #html
 <hr>
 
@@ -52,7 +52,6 @@ Written by dru18
 
 ##### Done.
 
-<hr>
 #debArchive #dpkg #debianPackage #Google #googleChrome #install #linux
 <hr>
 
@@ -69,7 +68,6 @@ Written by dru18
 
 `ssh -T git@github.com`
 
-<hr>
 #ssh #git #github #publickey #sshkey
 <hr>
 
@@ -117,6 +115,5 @@ It seems you are using firewall to deny incoming connections where you are block
 
 ##### Done.
 
-<hr>
 #server #ssh #ufw #firewall #openssh-server
 <hr>
