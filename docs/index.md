@@ -5,22 +5,22 @@ Written by dru18
 <hr>
 Vim makes it easier to making a website. It uses *markdowns* to do this task that makes it more easy to make a website. But when you use it as a web page for your web site it automatically get converted to *HTML* tags. You can save a lot of energy to do it. It uses a lot of *shortcuts* for it so you can edit your files *faster*. You don't need to even touch your *mouse* till the end of the editing of your file. You can just write your *code*, use *markdowns* for it, use *vim editing shortcuts* and your done. Just look and compare the *source code* of this web page with the [markdowns](https://raw.githubusercontent.com/dru18/druBot/master/docs/index.md) of this web page. For source code Right Click on this page and Choose ***View Source Code***.
 
-###### Display *numbers*.
+**Display *numbers*.**
 
 `:set number`
 
 
-###### Display *Relative Numbers*.
+**Display *Relative Numbers*.**
 
 `:set relativenumber`
 
 
-###### Display the *matching bracket*.
+**Display the *matching bracket*.**
 
 `:set showmatch`
 
 
-###### Ignore the *case* in find mode.
+**Ignore the *case* in find mode.**
 
 `:set ignorecase`
 
@@ -35,25 +35,25 @@ Blog 3:
 Written by dru18
 <hr>
 - Download Google Chrome *.deb* archive from google.com.
-   - Search "download chrome" on your search engine.
-   - Go to download link for Google Chrome on google.com.
+   - Search *download chrome* on your search engine.
+   - Go to *ownload link*for Google Chrome on google.com.
    - Select *.deb* option and download it.
 - Install Google Chrome using *.deb* archive.
-###### Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
+**Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.**
 
 `cd *location*`
 
-###### Search for *.deb* archive of Google Chrome.
+**Search for *.deb* archive of Google Chrome.**
 
 `ls | grep \*chrome\*.deb`
 
-###### Install *.deb* archive using *dpkg*.
+**Install *.deb* archive using *dpkg*.**
 
 `sudo dpkg --install $(ls | \*.chrome*.deb)`
 
-###### Enter your computer login password and hit *Enter*.
+**Enter your computer login password and hit *Enter*.**
 
-##### Done.
+**Done.**
 
 #debArchive #dpkg #debianPackage #Google #googleChrome #install #linux
 <hr>
@@ -62,11 +62,11 @@ Written by dru18
 Blog 2:
 Written by dru18
 <hr>
-###### Check your *SSH* connection
+**Check your *SSH* connection**
 
 `ssh -T username@host`
 
-###### Verify your *SSH* key on GitHub for Git after adding your public ssh key to your GitHub account.
+**Verify your *SSH* key on GitHub for Git after adding your public ssh key to your GitHub account.**
 
 `ssh -T git@github.com`
 
@@ -83,27 +83,27 @@ Written by dru18
 
 It seems you are using firewall to deny incoming connections where you are blocking SSH too for incoming connections or possibly you have not install *openssh-server* So you need to filter it out to allow SSH for incoming connectins. **ufw** makes it easier to *add rule* in in your **iptalbes** to *allow ssh* for incoming connectins.
 
-###### Install openssh-server
+**Install openssh-server**
 
 `sudo apt install openssh-server`
 
-###### *Install* ufw
+***Install* ufw**
 
 `sudo apt install ufw`
 
-###### *Enable* ufw
+***Enable* ufw**
 
 `sudo ufw enable`
 
-###### Check ufw *status*
+**Check ufw *status***
 
 `sudo ufw status verbose`
 
-###### Add rule to *allow SSH* for incomming connections
+**Add rule to *allow SSH* for incomming connections**
 
 `sudo ufw allow ssh`
 
-###### You have finished. Now try login to your server SSH.
+**You have finished. Now try login to your server SSH.**
 
 `ssh username@server`
 
@@ -111,7 +111,7 @@ It seems you are using firewall to deny incoming connections where you are block
 
 ![solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
 
-##### Done.
+**Done.**
 
 #server #ssh #ufw #firewall #openssh-server
 <hr>
