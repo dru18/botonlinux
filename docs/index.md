@@ -6,18 +6,22 @@ Written by dru18
 Vim makes it easier to making a website. It uses *markdowns* to do this task that makes it more easy to make a website. But when you use it as a web page for your web site it automatically get converted to *HTML* tags. You can save a lot of energy to do it. It uses a lot of *shortcuts* for it so you can edit your files *faster*. You don't need to even touch your *mouse* till the end of the editing of your file. You can just write your *code*, use *markdowns* for it, use *vim editing shortcuts* and your done. Just look and compare the *source code* of this web page with the [markdowns](https://raw.githubusercontent.com/dru18/druBot/master/docs/index.md) of this web page. For source code Right Click on this page and Choose ***View Source Code***.
 
 ###### Display *numbers*.
+
 `:set number`
 
 
 ###### Display *Relative Numbers*.
+
 `:set relativenumber`
 
 
 ###### Display the *matching bracket*.
+
 `:set showmatch`
 
 
 ###### Ignore the *case* in find mode.
+
 `:set ignorecase`
 
 
@@ -29,26 +33,25 @@ Just *run these commands* in Vim while editing as temporary so will not see them
 # Install Google Chrome on a Linux Distro using a *.deb* archive.
 Blog 3:
 Written by dru18
-
 <hr>
 - Download Google Chrome *.deb* archive from google.com.
    - Search "download chrome" on your search engine.
    - Go to download link for Google Chrome on google.com.
    - Select *.deb* option and download it.
 - Install Google Chrome using *.deb* archive.
-   ###### Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
+###### Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
 
-     `cd *location*`
+`cd *location*`
 
-   ###### Search for *.deb* archive of Google Chrome.
+###### Search for *.deb* archive of Google Chrome.
 
-     `ls | grep \*chrome\*.deb`
+`ls | grep \*chrome\*.deb`
 
-   ###### Install *.deb* archive using *dpkg*.
+###### Install *.deb* archive using *dpkg*.
 
-     `sudo dpkg --install $(ls | \*.chrome*.deb)`
+`sudo dpkg --install $(ls | \*.chrome*.deb)`
 
-   ###### Enter your computer login password and hit *Enter*.
+###### Enter your computer login password and hit *Enter*.
 
 ##### Done.
 
@@ -58,7 +61,6 @@ Written by dru18
 # Verify your *SSH*
 Blog 2:
 Written by dru18
-
 <hr>
 ###### Check your *SSH* connection
 
@@ -71,13 +73,9 @@ Written by dru18
 #ssh #git #github #publickey #sshkey
 <hr>
 
-##### Blog 1:
-Written by dru18
-
 # How to solved server SSH *hangup*
 Blog 1:
 Written by dru18
-
 <hr>
 [issue](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
 
