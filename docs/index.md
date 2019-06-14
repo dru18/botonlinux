@@ -26,8 +26,6 @@ Vim makes it easier to making a website. It uses *markdowns* to do this task tha
 
 
 Just *run these commands* in Vim while editing as temporary so will not see them enabled next time you run Vim or add theme to your */etc/vim/vimrc* file as permanent so will get all those enabled each time you launch Vim. Some of these properties are already there in your *vimrc* file so you just need to *uncomment* them and add manually only those which you don't see there.
-
-#vim #markdown #web #webPage #webSite #coding #html
 <hr>
 
 # Install Google Chrome using *.deb* archive.
@@ -39,20 +37,19 @@ Written by dru18
    - Go to *download link* for Google Chrome on google.com.
    - Select *.deb* option and download it.
 - Install Google Chrome using *.deb* archive.
-
-**Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.**
+  - **Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.**
 
 `cd *location*`
 
-**Search for *.deb* archive of Google Chrome.**
+  - **Search for *.deb* archive of Google Chrome.**
 
 `ls | grep \*chrome\*.deb`
 
-**Install *.deb* archive using *dpkg*.**
+  - **Install *.deb* archive using *dpkg*.**
 
 `sudo dpkg --install $(ls | \*.chrome*.deb)`
 
-**Enter your computer login password and hit *Enter*.**
+  - **Enter your computer login password and hit *Enter*.**
 
 **Done.**
 <hr>
@@ -68,8 +65,6 @@ Written by dru18
 **Verify your *SSH* key on GitHub for Git after adding your public ssh key to your GitHub account.**
 
 `ssh -T git@github.com`
-
-#ssh #git #github #publickey #sshkey
 <hr>
 
 # How to solved server SSH *hangup*
@@ -107,4 +102,3 @@ It seems you are using firewall to deny incoming connections where you are block
 ![solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
 
 **Done.**
-<hr>
