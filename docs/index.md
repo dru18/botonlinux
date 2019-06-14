@@ -2,6 +2,8 @@
 
 ###### Blog 4: By dru18
 
+<hr>
+
 Vim makes it easier to making a website. It uses *markdowns* to do this task that makes it more easy to make a website. But when you use it as a web page for your web site it automatically get converted to *HTML* tags. You can save a lot of energy to do it. It uses a lot of *shortcuts* for it so you can edit your files *faster*. You don't need to even touch your *mouse* till the end of the editing of your file. You can just write your *code*, use *markdowns* for it, use *vim editing shortcuts* and your done. Just look and compare the *source code* of this web page with the [markdowns](https://raw.githubusercontent.com/dru18/druBot/master/docs/index.md) of this web page. For source code Right Click on this page and Choose ***View Source Code***.
 
 **Display *numbers*.**
@@ -32,6 +34,8 @@ Just *run these commands* in Vim while editing as temporary so will not see them
 
 ###### Blog 3: By dru18
 
+<hr>
+
 - Download Google Chrome *.deb* archive from google.com.
    - Search *download chrome* on your search engine.
    - Go to *download link* for Google Chrome on google.com.
@@ -59,6 +63,8 @@ Just *run these commands* in Vim while editing as temporary so will not see them
 
 ###### Blog 2: By dru18
 
+<hr>
+
 **Check your *SSH* connection**
 
 `ssh -T username@host`
@@ -72,6 +78,8 @@ Just *run these commands* in Vim while editing as temporary so will not see them
 # How to solved server SSH *hangup*
 
 ###### Blog 1: By dru18
+
+<hr>
 
 ![issue](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20issue.png)
 
