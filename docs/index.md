@@ -39,6 +39,7 @@ Written by dru18
    - Go to download link for Google Chrome on google.com.
    - Select *.deb* option and download it.
 - Install Google Chrome using *.deb* archive.
+
 ###### Open your terminal and go to the location where you saved your Google Chrome *.deb* archive.
 
 `cd *location*`
