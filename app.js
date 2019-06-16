@@ -127,7 +127,7 @@ function nClear(){
   });
 }
 
-//topThreeNotice();
+topThreeNotice();
 //setInterval(notify, 60*1000);
 
 //favouriteReply();
