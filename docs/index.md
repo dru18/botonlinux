@@ -2,9 +2,11 @@
             <span>Downloads:</span>
             <ul>
                 <li>
-                    <a href="https://github.com/dru18/druBot/blob/master/botonlinux.zip" class="button">ZIP</a>
-                    <a href="https://github.com/dru18/druBot/blob/master/botonlinux.tar" class="button">TAR</a>
+           	    <a href="https://github.com/dru18/druBot/blob/master/botonlinux.zip" class="button">ZIP</a>
                 </li>
+		<li>
+		    <a href="https://github.com/dru18/druBot/blob/master/botonlinux.tar" class="button">TAR</a>
+		</li>
             </ul>
         </div>       
 # Coding easier way using *Vim*. :penguin:
