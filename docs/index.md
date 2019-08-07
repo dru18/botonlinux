@@ -1,6 +1,5 @@
  <div class="downloads">
-            <span>Downloads:</span>
-            <ul>
+            <ul> <span>Downloads:</span>
                 <li>
            	    <a href="https://github.com/dru18/druBot/blob/master/botonlinux.zip" class="button">ZIP</a>
                 </li>
