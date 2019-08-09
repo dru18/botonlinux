@@ -1,14 +1,3 @@
- <div class="downloads">
-	<span>Downloads:</span>
-            <ul> 
-                <li>
-           	    <a href="https://github.com/pages-themes/leap-day/zipball/master" class="button">ZIP</a>
-                </li>
-		<li>
-		    <a href="https://github.com/pages-themes/leap-day/tarball/master" class="button">TAR</a>
-		</li>
-            </ul>
-        </div>       
 # Coding easier way using *Vim*. :penguin:
 
 ###### Blog 4: By dru18
