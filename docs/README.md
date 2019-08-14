@@ -28,7 +28,7 @@ Vim makes it easier to making a website. It uses *markdowns* to do this task tha
 
 Just *run these commands* in Vim while editing as temporary so will not see them enabled next time you run Vim or add theme to your */etc/vim/vimrc* file as permanent so will get all those enabled each time you launch Vim. Some of these properties are already there in your *vimrc* file so you just need to *uncomment* them and add manually only those which you don't see there.
 
-## Good Luck :+1:
+**Good Luck.** :+1:
 <hr>
 
 # Install Google Chrome using *.deb* archive. :penguin:
@@ -57,7 +57,7 @@ Just *run these commands* in Vim while editing as temporary so will not see them
   - **Enter your computer login password and hit *Enter*.**
 
 **Done.**
-## Good Luck :+1:
+**Good Luck.** :+1:
 <hr>
 
 # Verify your *SSH* :penguin:
@@ -75,7 +75,7 @@ Just *run these commands* in Vim while editing as temporary so will not see them
 `ssh -T git@github.com`
 
 **Done**
-## Good Luck :+1: :penguin:
+**Good Luck** :+1:
 <hr>
 
 # How to solved server SSH *hangup*:penguin:
@@ -115,4 +115,4 @@ It seems you are using firewall to deny incoming connections where you are block
 ![solved](https://github.com/dru18/druBot/blob/master/issue/screenshot/server%20ssh%20hangup%20solved.png)
 
 **Done.**
-## Good Luck :+1::penguin:
+**Good Luck** :+1: 
